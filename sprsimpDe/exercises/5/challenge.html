@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <style>
+        *{
+            font-family: Arial;
+        }
+        .five-e{
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .new{
+            color: rgb(237, 137, 101);
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        .mac{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 3px;
+        }
+        .descr{
+            font-weight: bolder;
+            font-size: 25px;
+            margin-bottom: 5px;
+        }
+        .price{
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+        .buy{
+            background-color: rgba(73, 63, 254, 0.943);
+            color: white;
+            border-style: solid;
+            border: 1px solid rgba(73, 63, 254, 0.943);
+            padding: 6px 13px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .buy:hover{
+            background-color: white;
+            color: rgba(73, 63, 254, 0.943);
+        }
+        /*        */
+        .amount, .currency, .hourly{
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        .amou{
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        .usd{
+            opacity: 0.8;
+        }
+        .currency{
+            color: green;
+        }
+        .hourly{
+            opacity: 0.9;
+        }
+        #reduce{
+            color: red;
+        }
+        /*        */
+        .fcc, .conte, .skill{
+            width: 499px;
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        .fc{
+            font-weight: bold;
+        }
+        .at{
+            opacity: 0.8;
+        }
+        .conte{
+            line-height: 23px;
+            margin-bottom: 10px;
+        }
+        .skill{
+            margin-top: 20px;
+        }
+        .teach{
+            color: rgb(104, 190, 219);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p class="five-e new">New</p>
+    <p class="five-e mac">MacBook Pro</p>
+    <p class="five-e descr">Supercharged for pros.</p>
+    <p class="five-e price">From $1999</p>
+    <p class="five-e"><button class="buy">Buy</button></p>
+    <br />
+    <hr />
+    <br />
+    <p class="amount"><span class="amou">1,049.61 </span><span class="usd">USD</span></p>
+    <p class="currency">+18.05 (1.75%) today</p>
+    <p class="hourly">After hours 1,048.00 <span id="reduce">-1.61 (0.15%)</span></p>
+    <br />
+    <hr />
+    <p class="fcc"><span class="fc">freeCodeCamp</span> <span class="at">@freeCodeCamp 1h</span> </p>
+    <p class="conte">
+        As a web developer, you'll want to make your projects
+        easy to use and navigate around.
+    </p>
+    <p class="skill">Here <span class="teach">@chp_it</span> outlines the top skills new developers should have.</p>
+</body>
+</html>
