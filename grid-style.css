@@ -5,10 +5,10 @@
     gap: 8px;
 }
 .in-cont-one, 
-.in-cont-two .contB-two, 
-.in-cont-three .contC-two{
+.in-cont-two,.contB-two, 
+.in-cont-three,.contC-two{
     display: flex;
-    flex: 1;
+    
 }
 .in-cont-one{
     padding: 5px;

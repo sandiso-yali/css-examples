@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin and Padding</title>
+    <style>
+        .page,a{
+            margin: 1px;
+        }
+        .page{
+            padding: 5px;
+            cursor: pointer;
+        }
+        a{
+            padding: 2px;
+        }
+
+        .stretch{
+            background-color: rgb(9, 205, 9);
+            color: white;
+            cursor: pointer;
+            padding: 8px 15px;
+            font-size: 17px;
+            border: none;
+            transition: padding 0.2s;
+        }
+        .stretch:hover{
+            padding: 16px 30px;
+        }
+
+        .shadow{
+            background-color: rgb(13, 170, 13);
+            color: white;
+            cursor: pointer;
+            padding: 8px 15px;
+            font-size: 17px;
+            border: none;
+            box-shadow: 2px 3px 5px rgba(0,0,0,0.4);
+        }
+        .shadow:active{
+            box-shadow: 2px 3px 5px rgba(0,0,0,0);
+        }
+
+        .one,.two,.three{
+            background-color: rgb(23, 193, 23);
+            border: none;
+            color: white;
+            font-size: 20px;
+            padding: 7px 15px;
+            margin: 0px 8px;
+            cursor: pointer;
+            transition: margin 0.15s, padding 0.15s;
+        }
+        .one:hover,.two:hover,.three:hover{
+            padding: 7px 20px;
+            margin: 0px 3px;
+        }
+    </style>
+</head>
+<body>
+    <button class="page">Back</button>
+    <a href="https://example.com">1</a>
+    <a href="https://example.com">2</a>
+    <a href="https://example.com">3</a>
+    <a href="https://example.com">4</a>
+    <a href="https://example.com">5</a>
+    <button class="page">Next</button>
+
+    <br /><br />
+    <p><button class="stretch">Stretch</button></p><br />
+    <button class="shadow">Shadow</button><br /><br />
+    <p>
+        <button class="one">One</button>
+        <button class="two">Two</button>
+        <button class="three">Three</button>
+    </p>
+</body>
+</html>

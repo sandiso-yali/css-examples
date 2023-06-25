@@ -1,0 +1,71 @@
+.subs{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: opacity 0.2s;
+    /* Transition takes in two values,
+        one being what we want to transition
+        and the next being the duration
+        of the transition
+    */
+}
+/* The pseudoclass "opacity" fades a particular color
+    between 0 to 1 where 0 totally fades out the
+    color and 1 keeps the original color.
+    Hover activates some defined properties when
+    hovered over the targeted element.
+    Multiple transitions are separated by commas.
+*/
+.subs:hover{
+    opacity: 0.5;
+}
+.subs:active{
+    opacity: 0.3;
+}
+
+.join{
+    padding: 6px;
+    background-color: white;
+    border: 1px solid rgb(118, 118, 235);
+    border-width: 2px;
+    color: rgb(118, 118, 240);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+.join:hover{
+    background-color: rgb(118, 118, 240);
+    color: white;
+}
+.join:active{
+    opacity: 0.5;
+}
+
+.tweet{
+    background-color: rgb(131, 148, 210);
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+/* box-shadow creates a shadow around an element.
+    It takes 4 values: 1st for horizontal distance 
+    from the element, 2nd is the vertical distances
+    (horizontal and vertical movement are from
+    left to right and top to bottom respectively),
+    3rd is the blur given normally in pixels and the
+    final being the color with opacity, rgba(r,g,b,opacity)
+*/
+.tweet:hover{
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+}

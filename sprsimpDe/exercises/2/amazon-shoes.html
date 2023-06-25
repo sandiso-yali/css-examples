@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Running Shoe</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* Redirect user to Amazon homepage */
+        .redir-amz{
+            color: rgb(0, 120, 135);
+            text-decoration: none;
+        }
+        /* end */
+
+        /* Nike Shoes */
+        .nike-shoes{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        /* end */
+
+        /* Price and availability of the shoe */
+        .price{
+            color: rgb(0, 118, 0);
+            font-weight: bold;
+            font-size: 19px;
+        }
+        /* end */
+
+        .buttons{
+            width: 135px;
+            font-weight: bold;
+            font-family: sans-serif;
+            height: 35px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .btn-cart{
+            background-color: rgb(255, 200, 20);
+            margin-right: 8px;
+        }
+        .btn-buy{
+            background-color: rgb(255, 165, 28);
+        }
+        /* */
+    </style>
+</head>
+<body>
+    <a href="https://www.amazon.com/" class="redir-amz" target="_blank">
+        Back to Amazon
+    </a>
+    <p class="nike-shoes">
+        Nike Black Running Shoes
+    </p>
+    <p class="price">
+        $39 - in stock.
+    </p>
+    
+    <div class="deliver">
+        Free delivery tomorrow.
+    </div>
+    <br />
+    <div>
+        <button class="buttons btn-cart">Add to Cart</button>
+        <button class="buttons btn-buy">Buy now</button>
+    </div>
+</body>
+</html>
