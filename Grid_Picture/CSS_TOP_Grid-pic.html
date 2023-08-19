@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .container{
+            background-color: lightgreen;
+            padding: 10px;
+            border: 2px solid rgb(255, 0, 0);
+            width: 50vw;
+        }
+        .cont-one{
+            display: flex;
+            border: 1px solid blue;
+            padding: 16px;
+            background-color: lightblue;
+            gap: 8px;
+        }
+        .one{
+            border: 2px solid rgb(255, 98, 0);
+            background-color: rgba(149, 123, 75, 0.821);
+            padding: 16px;
+            flex: 1;
+        }
+        ._two{
+            display: flex;
+        }
+        .__two{
+            flex: 1;
+            background-color: coral;
+            border: 2px solid whitesmoke;
+            padding: 15px;
+        }
+        .cont-two{
+            display: flex;
+            margin-top: 20px;
+            height: 100px;
+        }
+        .two{
+            flex: 1;
+        }
+        ._two_{
+            padding-right: 8px;
+            background-color: deepskyblue;
+            border: 2px solid rgb(182, 4, 182);
+            
+        }
+        ._two__{
+            display: block;
+            height: 100px;
+        }
+        .two__{
+            background-color: deepskyblue;
+            border: 2px solid rgb(182, 4, 182);
+            padding: 22px;
+        }
+        .two___{
+            background-color: deepskyblue;
+            border: 2px solid rgb(182, 4, 182);
+            padding: 22px;
+        }
+        .cont-three{
+            margin-top: 20px;
+            display: flex;
+            border: 2px solid blue;
+            padding: 8px;
+            background-color: rgb(117, 195, 221);
+            gap: 5px;
+        }
+        .three{
+            flex: 1;
+        }
+        ._three{
+            border: 2px solid rgba(162, 0, 255, 0.76);
+            padding: 16px;
+            background-color: yellowgreen;
+        }
+        ._tr{
+            display: flex;
+            gap: 5px;
+        }
+        .tr{
+            flex: 1;
+            background-color: aliceblue;
+            border: 2px solid red;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cont-one">
+            <div class="one _one"></div>
+            <div class="one _two">
+                <div class="__two"></div>
+                <div class="__two"></div>
+            </div>
+            <div class="one"></div>
+        </div>
+        <div class="cont-two">
+            <div class="two _two_"></div>
+            <div class="two _two__">
+                <div class="two__"></div>
+                <div class="two___"></div>
+            </div>
+        </div>
+        <div class="cont-three">
+            <div class="three _three"></div>
+            <div class="three _tr">
+                <div class="tr"></div>
+                <div class="tr"></div>
+            </div>
+            <div class="three _three"></div>
+        </div>
+    </div>
+</body>
+</html>
